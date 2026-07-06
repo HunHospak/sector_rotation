@@ -1,0 +1,28 @@
+service: sector_rotation
+schema_version: "1.0"
+ttl_hours: 30
+
+benchmark: SPY
+
+# Short and long lookback windows (trading days) for relative strength.
+window_short: 5
+window_long: 20
+
+# |flow_score| above this => "inflow" / "outflow"; otherwise "neutral".
+direction_threshold: 0.5
+
+# US sector ETFs -> readable sector name.
+sectors:
+  XLK: Technology
+  XLC: Communication Services
+  XLY: Consumer Discretionary
+  XLP: Consumer Staples
+  XLE: Energy
+  XLF: Financials
+  XLV: Health Care
+  XLI: Industrials
+  XLB: Materials
+  XLRE: Real Estate
+  XLU: Utilities
+
+feed_url: "https://HunHospak.github.io/sector_rotation/sector_rotation.json"

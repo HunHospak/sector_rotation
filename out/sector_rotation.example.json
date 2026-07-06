@@ -1,0 +1,21 @@
+{
+  "service": "sector_rotation",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-06T21:45:00+00:00",
+  "status": "active",
+  "ttl_hours": 30,
+  "data": {
+    "benchmark": "SPY",
+    "as_of": "2026-07-06",
+    "window_short": 5,
+    "window_long": 20,
+    "sectors": [
+      {"sector": "Technology", "etf": "XLK", "ret_short": 2.9, "ret_long": 6.1, "rel_short": 1.8, "rel_long": 3.4, "vol_ratio": 1.18, "flow_score": 2.44, "direction": "inflow"},
+      {"sector": "Communication Services", "etf": "XLC", "ret_short": 1.7, "ret_long": 3.2, "rel_short": 0.6, "rel_long": 0.5, "vol_ratio": 1.05, "flow_score": 0.56, "direction": "inflow"},
+      {"sector": "Energy", "etf": "XLE", "ret_short": -0.4, "ret_long": 1.1, "rel_short": -1.5, "rel_long": -1.6, "vol_ratio": 0.92, "flow_score": -1.54, "direction": "outflow"},
+      {"sector": "Utilities", "etf": "XLU", "ret_short": -1.2, "ret_long": -0.3, "rel_short": -2.3, "rel_long": -3.0, "vol_ratio": 0.88, "flow_score": -2.58, "direction": "outflow"}
+    ],
+    "rotating_in": ["Technology", "Communication Services"],
+    "rotating_out": ["Energy", "Utilities"]
+  }
+}
