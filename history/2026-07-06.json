@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-07-06T20:16:36+00:00",
+  "generated_at": "2026-07-06T22:47:20+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -10,12 +10,12 @@
       {
         "sector": "Financials",
         "etf": "XLF",
-        "ret_short": 4.83,
-        "ret_long": 7.98,
-        "rel_short": 1.78,
-        "rel_long": 8.5,
+        "ret_short": 4.8,
+        "ret_long": 7.95,
+        "rel_short": 1.74,
+        "rel_long": 8.46,
         "vol_ratio": 0.995,
-        "flow_score": 4.46,
+        "flow_score": 4.43,
         "direction": "inflow"
       },
       {
@@ -32,12 +32,12 @@
       {
         "sector": "Health Care",
         "etf": "XLV",
-        "ret_short": 1.07,
-        "ret_long": 7.03,
-        "rel_short": -1.98,
-        "rel_long": 7.54,
-        "vol_ratio": 1.091,
-        "flow_score": 1.83,
+        "ret_short": 1.01,
+        "ret_long": 6.97,
+        "rel_short": -2.05,
+        "rel_long": 7.48,
+        "vol_ratio": 1.092,
+        "flow_score": 1.76,
         "direction": "inflow"
       },
       {
@@ -109,12 +109,12 @@
       {
         "sector": "Technology",
         "etf": "XLK",
-        "ret_short": 1.37,
-        "ret_long": -4.84,
-        "rel_short": -1.68,
-        "rel_long": -4.33,
+        "ret_short": 1.36,
+        "ret_long": -4.86,
+        "rel_short": -1.7,
+        "rel_long": -4.34,
         "vol_ratio": 0.752,
-        "flow_score": -2.74,
+        "flow_score": -2.76,
         "direction": "outflow"
       },
       {
