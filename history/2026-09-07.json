@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-09-04T23:18:58+00:00",
+  "generated_at": "2026-09-07T23:45:19+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -14,7 +14,7 @@
         "ret_long": 11.41,
         "rel_short": 2.09,
         "rel_long": 11.81,
-        "vol_ratio": 1.075,
+        "vol_ratio": 1.076,
         "flow_score": 5.98,
         "direction": "inflow"
       },
@@ -36,7 +36,7 @@
         "ret_long": -0.37,
         "rel_short": 0.75,
         "rel_long": 0.03,
-        "vol_ratio": 0.982,
+        "vol_ratio": 0.983,
         "flow_score": 0.46,
         "direction": "neutral"
       },
@@ -47,7 +47,7 @@
         "ret_long": 0.87,
         "rel_short": -0.11,
         "rel_long": 1.27,
-        "vol_ratio": 1.066,
+        "vol_ratio": 1.067,
         "flow_score": 0.44,
         "direction": "neutral"
       },
@@ -69,7 +69,7 @@
         "ret_long": 0.7,
         "rel_short": -0.96,
         "rel_long": 1.1,
-        "vol_ratio": 0.985,
+        "vol_ratio": 0.986,
         "flow_score": -0.14,
         "direction": "neutral"
       },
@@ -80,7 +80,7 @@
         "ret_long": -0.63,
         "rel_short": -1.13,
         "rel_long": -0.24,
-        "vol_ratio": 1.016,
+        "vol_ratio": 1.017,
         "flow_score": -0.77,
         "direction": "outflow"
       },
@@ -102,7 +102,7 @@
         "ret_long": -2.33,
         "rel_short": -1.35,
         "rel_long": -1.94,
-        "vol_ratio": 1.168,
+        "vol_ratio": 1.17,
         "flow_score": -1.58,
         "direction": "outflow"
       },
@@ -113,7 +113,7 @@
         "ret_long": -5.35,
         "rel_short": -1.16,
         "rel_long": -4.95,
-        "vol_ratio": 1.313,
+        "vol_ratio": 1.314,
         "flow_score": -2.68,
         "direction": "outflow"
       },
@@ -124,7 +124,7 @@
         "ret_long": -4.13,
         "rel_short": -2.07,
         "rel_long": -3.73,
-        "vol_ratio": 1.029,
+        "vol_ratio": 1.031,
         "flow_score": -2.74,
         "direction": "outflow"
       }
@@ -140,7 +140,7 @@
       "Industrials",
       "Consumer Discretionary"
     ],
-    "as_of": "2026-09-04",
+    "as_of": "2026-09-07",
     "window_short": 5,
     "window_long": 20
   }
