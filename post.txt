@@ -1,10 +1,10 @@
-Sector rotation — 2026-09-18 (vs SPY, rel. strength)
+Sector rotation — 2026-09-22 (vs SPY, rel. strength)
 Money leaning IN:
-  ▲ Technology (XLK)  flow +2.3
-  ▲ Health Care (XLV)  flow +0.4
-  ▲ Energy (XLE)  flow -0.2
+  ▲ Technology (XLK)  flow +2.0
+  ▲ Health Care (XLV)  flow +0.2
+  ▲ Energy (XLE)  flow -0.4
 Leaning OUT:
-  ▼ Utilities (XLU)  flow -4.0
-  ▼ Real Estate (XLRE)  flow -3.2
-  ▼ Industrials (XLI)  flow -2.9
+  ▼ Utilities (XLU)  flow -4.3
+  ▼ Real Estate (XLRE)  flow -3.5
+  ▼ Industrials (XLI)  flow -3.1
 Relative-strength proxy, not fund-flow data · not investment advice · arkenlabs.eu
