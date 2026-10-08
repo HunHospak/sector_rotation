@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T01:00:50+00:00",
+  "generated_at": "2026-10-08T01:18:16+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -14,7 +14,7 @@
         "ret_long": 7.65,
         "rel_short": 1.91,
         "rel_long": 5.68,
-        "vol_ratio": 1.142,
+        "vol_ratio": 1.063,
         "flow_score": 3.42,
         "direction": "inflow"
       },
@@ -25,7 +25,7 @@
         "ret_long": -0.99,
         "rel_short": 1.64,
         "rel_long": -2.96,
-        "vol_ratio": 0.88,
+        "vol_ratio": 0.887,
         "flow_score": -0.2,
         "direction": "neutral"
       },
@@ -36,8 +36,19 @@
         "ret_long": -1.78,
         "rel_short": 0.41,
         "rel_long": -3.74,
-        "vol_ratio": 1.039,
+        "vol_ratio": 1.078,
         "flow_score": -1.25,
+        "direction": "outflow"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "ret_short": 3.65,
+        "ret_long": -4.57,
+        "rel_short": 1.7,
+        "rel_long": -6.54,
+        "vol_ratio": 1.549,
+        "flow_score": -1.59,
         "direction": "outflow"
       },
       {
@@ -47,19 +58,19 @@
         "ret_long": -1.36,
         "rel_short": -0.5,
         "rel_long": -3.33,
-        "vol_ratio": 0.948,
+        "vol_ratio": 0.953,
         "flow_score": -1.63,
         "direction": "outflow"
       },
       {
         "sector": "Communication Services",
         "etf": "XLC",
-        "ret_short": 0.39,
-        "ret_long": -0.05,
-        "rel_short": -1.56,
-        "rel_long": -2.01,
-        "vol_ratio": 1.132,
-        "flow_score": -1.74,
+        "ret_short": 0.16,
+        "ret_long": 0.45,
+        "rel_short": -1.79,
+        "rel_long": -1.52,
+        "vol_ratio": 0.938,
+        "flow_score": -1.68,
         "direction": "outflow"
       },
       {
@@ -69,7 +80,7 @@
         "ret_long": -3.81,
         "rel_short": -0.67,
         "rel_long": -5.78,
-        "vol_ratio": 1.304,
+        "vol_ratio": 1.298,
         "flow_score": -2.71,
         "direction": "outflow"
       },
@@ -80,7 +91,7 @@
         "ret_long": -2.0,
         "rel_short": -2.01,
         "rel_long": -3.97,
-        "vol_ratio": 1.005,
+        "vol_ratio": 0.981,
         "flow_score": -2.79,
         "direction": "outflow"
       },
@@ -91,7 +102,7 @@
         "ret_long": 0.36,
         "rel_short": -4.08,
         "rel_long": -1.61,
-        "vol_ratio": 1.1,
+        "vol_ratio": 1.013,
         "flow_score": -3.09,
         "direction": "outflow"
       },
@@ -102,19 +113,19 @@
         "ret_long": -5.41,
         "rel_short": -1.95,
         "rel_long": -7.37,
-        "vol_ratio": 0.955,
+        "vol_ratio": 0.839,
         "flow_score": -4.12,
         "direction": "outflow"
       },
       {
         "sector": "Real Estate",
         "etf": "XLRE",
-        "ret_short": -1.64,
-        "ret_long": -6.64,
-        "rel_short": -3.59,
-        "rel_long": -8.61,
-        "vol_ratio": 1.283,
-        "flow_score": -5.6,
+        "ret_short": -0.58,
+        "ret_long": -5.59,
+        "rel_short": -2.53,
+        "rel_long": -7.56,
+        "vol_ratio": 1.289,
+        "flow_score": -4.54,
         "direction": "outflow"
       }
     ],
@@ -123,6 +134,7 @@
     ],
     "rotating_out": [
       "Consumer Discretionary",
+      "Utilities",
       "Industrials",
       "Communication Services",
       "Materials",
@@ -131,7 +143,7 @@
       "Financials",
       "Real Estate"
     ],
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-08",
     "window_short": 5,
     "window_long": 20
   }
