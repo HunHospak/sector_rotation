@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T23:52:02+00:00",
+  "generated_at": "2026-10-20T00:38:31+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -14,7 +14,7 @@
         "ret_long": 6.52,
         "rel_short": 6.99,
         "rel_long": 6.31,
-        "vol_ratio": 1.298,
+        "vol_ratio": 1.377,
         "flow_score": 6.72,
         "direction": "inflow"
       },
@@ -25,7 +25,7 @@
         "ret_long": 6.74,
         "rel_short": 6.82,
         "rel_long": 6.54,
-        "vol_ratio": 0.864,
+        "vol_ratio": 0.931,
         "flow_score": 6.71,
         "direction": "inflow"
       },
@@ -36,7 +36,7 @@
         "ret_long": 5.34,
         "rel_short": 5.42,
         "rel_long": 5.14,
-        "vol_ratio": 1.096,
+        "vol_ratio": 1.111,
         "flow_score": 5.31,
         "direction": "inflow"
       },
@@ -47,7 +47,7 @@
         "ret_long": 2.33,
         "rel_short": 4.98,
         "rel_long": 2.12,
-        "vol_ratio": 0.85,
+        "vol_ratio": 0.909,
         "flow_score": 3.84,
         "direction": "inflow"
       },
@@ -58,7 +58,7 @@
         "ret_long": 3.46,
         "rel_short": 3.9,
         "rel_long": 3.25,
-        "vol_ratio": 0.82,
+        "vol_ratio": 0.86,
         "flow_score": 3.64,
         "direction": "inflow"
       },
@@ -69,7 +69,7 @@
         "ret_long": -0.04,
         "rel_short": 3.29,
         "rel_long": -0.24,
-        "vol_ratio": 1.076,
+        "vol_ratio": 1.033,
         "flow_score": 1.88,
         "direction": "inflow"
       },
@@ -80,7 +80,7 @@
         "ret_long": -0.26,
         "rel_short": 3.41,
         "rel_long": -0.46,
-        "vol_ratio": 0.997,
+        "vol_ratio": 1.047,
         "flow_score": 1.86,
         "direction": "inflow"
       },
@@ -91,7 +91,7 @@
         "ret_long": 1.51,
         "rel_short": 1.62,
         "rel_long": 1.31,
-        "vol_ratio": 1.154,
+        "vol_ratio": 1.213,
         "flow_score": 1.5,
         "direction": "inflow"
       },
@@ -102,7 +102,7 @@
         "ret_long": -0.11,
         "rel_short": 1.91,
         "rel_long": -0.32,
-        "vol_ratio": 1.023,
+        "vol_ratio": 0.968,
         "flow_score": 1.02,
         "direction": "inflow"
       },
@@ -113,7 +113,7 @@
         "ret_long": -0.91,
         "rel_short": 1.09,
         "rel_long": -1.11,
-        "vol_ratio": 1.04,
+        "vol_ratio": 1.118,
         "flow_score": 0.21,
         "direction": "neutral"
       },
@@ -124,7 +124,7 @@
         "ret_long": -3.12,
         "rel_short": -5.73,
         "rel_long": -3.33,
-        "vol_ratio": 1.286,
+        "vol_ratio": 1.38,
         "flow_score": -4.77,
         "direction": "outflow"
       }
@@ -143,7 +143,7 @@
     "rotating_out": [
       "Technology"
     ],
-    "as_of": "2026-10-16",
+    "as_of": "2026-10-20",
     "window_short": 5,
     "window_long": 20
   }
