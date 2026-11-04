@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-11-03T03:03:29+00:00",
+  "generated_at": "2026-11-04T01:39:03+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -14,7 +14,7 @@
         "ret_long": 12.08,
         "rel_short": 5.0,
         "rel_long": 15.01,
-        "vol_ratio": 1.187,
+        "vol_ratio": 1.265,
         "flow_score": 9.0,
         "direction": "inflow"
       },
@@ -25,7 +25,7 @@
         "ret_long": 8.42,
         "rel_short": 6.19,
         "rel_long": 11.36,
-        "vol_ratio": 1.22,
+        "vol_ratio": 1.256,
         "flow_score": 8.26,
         "direction": "inflow"
       },
@@ -36,7 +36,7 @@
         "ret_long": 10.29,
         "rel_short": 4.7,
         "rel_long": 13.23,
-        "vol_ratio": 1.333,
+        "vol_ratio": 1.376,
         "flow_score": 8.11,
         "direction": "inflow"
       },
@@ -47,7 +47,7 @@
         "ret_long": 9.26,
         "rel_short": 4.37,
         "rel_long": 12.19,
-        "vol_ratio": 0.871,
+        "vol_ratio": 0.98,
         "flow_score": 7.5,
         "direction": "inflow"
       },
@@ -58,7 +58,7 @@
         "ret_long": 7.01,
         "rel_short": 5.15,
         "rel_long": 9.94,
-        "vol_ratio": 1.1,
+        "vol_ratio": 1.183,
         "flow_score": 7.07,
         "direction": "inflow"
       },
@@ -69,7 +69,7 @@
         "ret_long": 6.83,
         "rel_short": 4.48,
         "rel_long": 9.76,
-        "vol_ratio": 0.985,
+        "vol_ratio": 0.991,
         "flow_score": 6.6,
         "direction": "inflow"
       },
@@ -80,7 +80,7 @@
         "ret_long": 7.3,
         "rel_short": 3.7,
         "rel_long": 10.24,
-        "vol_ratio": 1.005,
+        "vol_ratio": 1.007,
         "flow_score": 6.31,
         "direction": "inflow"
       },
@@ -91,7 +91,7 @@
         "ret_long": -0.23,
         "rel_short": 3.38,
         "rel_long": 2.7,
-        "vol_ratio": 1.089,
+        "vol_ratio": 1.151,
         "flow_score": 3.11,
         "direction": "inflow"
       },
@@ -102,7 +102,7 @@
         "ret_long": 5.99,
         "rel_short": -1.7,
         "rel_long": 8.92,
-        "vol_ratio": 1.03,
+        "vol_ratio": 1.02,
         "flow_score": 2.55,
         "direction": "inflow"
       },
@@ -113,7 +113,7 @@
         "ret_long": -10.17,
         "rel_short": -1.72,
         "rel_long": -7.24,
-        "vol_ratio": 1.251,
+        "vol_ratio": 1.348,
         "flow_score": -3.93,
         "direction": "outflow"
       },
@@ -124,7 +124,7 @@
         "ret_long": -13.29,
         "rel_short": -4.76,
         "rel_long": -10.36,
-        "vol_ratio": 1.197,
+        "vol_ratio": 1.231,
         "flow_score": -7.0,
         "direction": "outflow"
       }
@@ -144,7 +144,7 @@
       "Communication Services",
       "Technology"
     ],
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "window_short": 5,
     "window_long": 20
   }
