@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T03:48:03+00:00",
+  "generated_at": "2026-11-11T01:28:35+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -14,7 +14,7 @@
         "ret_long": 9.5,
         "rel_short": 1.94,
         "rel_long": 12.77,
-        "vol_ratio": 1.344,
+        "vol_ratio": 1.302,
         "flow_score": 6.27,
         "direction": "inflow"
       },
@@ -25,7 +25,7 @@
         "ret_long": 7.78,
         "rel_short": 2.33,
         "rel_long": 11.05,
-        "vol_ratio": 1.468,
+        "vol_ratio": 1.396,
         "flow_score": 5.82,
         "direction": "inflow"
       },
@@ -36,7 +36,7 @@
         "ret_long": 6.49,
         "rel_short": 2.21,
         "rel_long": 9.75,
-        "vol_ratio": 1.113,
+        "vol_ratio": 1.087,
         "flow_score": 5.23,
         "direction": "inflow"
       },
@@ -47,7 +47,7 @@
         "ret_long": 7.68,
         "rel_short": -0.01,
         "rel_long": 10.94,
-        "vol_ratio": 1.289,
+        "vol_ratio": 1.174,
         "flow_score": 4.37,
         "direction": "inflow"
       },
@@ -58,7 +58,7 @@
         "ret_long": -3.67,
         "rel_short": 7.0,
         "rel_long": -0.4,
-        "vol_ratio": 1.311,
+        "vol_ratio": 1.138,
         "flow_score": 4.04,
         "direction": "inflow"
       },
@@ -69,7 +69,7 @@
         "ret_long": 5.34,
         "rel_short": 0.67,
         "rel_long": 8.61,
-        "vol_ratio": 1.237,
+        "vol_ratio": 1.258,
         "flow_score": 3.84,
         "direction": "inflow"
       },
@@ -80,19 +80,8 @@
         "ret_long": 5.19,
         "rel_short": 0.2,
         "rel_long": 8.45,
-        "vol_ratio": 1.202,
+        "vol_ratio": 1.158,
         "flow_score": 3.5,
-        "direction": "inflow"
-      },
-      {
-        "sector": "Materials",
-        "etf": "XLB",
-        "ret_short": -1.36,
-        "ret_long": 7.08,
-        "rel_short": -1.44,
-        "rel_long": 10.34,
-        "vol_ratio": 1.366,
-        "flow_score": 3.27,
         "direction": "inflow"
       },
       {
@@ -102,7 +91,7 @@
         "ret_long": -0.15,
         "rel_short": -0.56,
         "rel_long": 3.11,
-        "vol_ratio": 1.278,
+        "vol_ratio": 1.192,
         "flow_score": 0.91,
         "direction": "inflow"
       },
@@ -113,7 +102,7 @@
         "ret_long": -12.98,
         "rel_short": -2.0,
         "rel_long": -9.71,
-        "vol_ratio": 1.462,
+        "vol_ratio": 1.434,
         "flow_score": -5.08,
         "direction": "outflow"
       },
@@ -124,7 +113,7 @@
         "ret_long": -6.17,
         "rel_short": -7.97,
         "rel_long": -2.9,
-        "vol_ratio": 1.34,
+        "vol_ratio": 1.342,
         "flow_score": -5.94,
         "direction": "outflow"
       }
@@ -137,14 +126,13 @@
       "Communication Services",
       "Financials",
       "Utilities",
-      "Materials",
       "Industrials"
     ],
     "rotating_out": [
       "Technology",
       "Energy"
     ],
-    "as_of": "2026-11-10",
+    "as_of": "2026-11-11",
     "window_short": 5,
     "window_long": 20
   }
