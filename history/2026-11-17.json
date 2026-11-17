@@ -1,0 +1,151 @@
+{
+  "service": "sector_rotation",
+  "schema_version": "1.0",
+  "generated_at": "2026-11-17T04:10:18+00:00",
+  "status": "active",
+  "ttl_hours": 30,
+  "data": {
+    "benchmark": "SPY",
+    "sectors": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "ret_short": 1.88,
+        "ret_long": 6.18,
+        "rel_short": 3.57,
+        "rel_long": 9.64,
+        "vol_ratio": 0.828,
+        "flow_score": 6.0,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "ret_short": 0.75,
+        "ret_long": 6.67,
+        "rel_short": 2.45,
+        "rel_long": 10.13,
+        "vol_ratio": 0.663,
+        "flow_score": 5.52,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Health Care",
+        "etf": "XLV",
+        "ret_short": -0.24,
+        "ret_long": 6.96,
+        "rel_short": 1.45,
+        "rel_long": 10.42,
+        "vol_ratio": 0.72,
+        "flow_score": 5.04,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "ret_short": 0.33,
+        "ret_long": 5.67,
+        "rel_short": 2.02,
+        "rel_long": 9.13,
+        "vol_ratio": 0.874,
+        "flow_score": 4.86,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "ret_short": -0.87,
+        "ret_long": 6.19,
+        "rel_short": 0.82,
+        "rel_long": 9.65,
+        "vol_ratio": 0.686,
+        "flow_score": 4.35,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "ret_short": -2.36,
+        "ret_long": 3.22,
+        "rel_short": -0.67,
+        "rel_long": 6.69,
+        "vol_ratio": 0.83,
+        "flow_score": 2.27,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "ret_short": 2.83,
+        "ret_long": -6.06,
+        "rel_short": 4.52,
+        "rel_long": -2.6,
+        "vol_ratio": 0.733,
+        "flow_score": 1.67,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "ret_short": -2.78,
+        "ret_long": 1.02,
+        "rel_short": -1.08,
+        "rel_long": 4.48,
+        "vol_ratio": 0.738,
+        "flow_score": 1.14,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "ret_short": -1.91,
+        "ret_long": -0.61,
+        "rel_short": -0.22,
+        "rel_long": 2.85,
+        "vol_ratio": 0.777,
+        "flow_score": 1.01,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Communication Services",
+        "etf": "XLC",
+        "ret_short": -0.5,
+        "ret_long": -2.97,
+        "rel_short": 1.19,
+        "rel_long": 0.49,
+        "vol_ratio": 0.706,
+        "flow_score": 0.91,
+        "direction": "inflow"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "ret_short": -3.58,
+        "ret_long": -11.4,
+        "rel_short": -1.89,
+        "rel_long": -7.94,
+        "vol_ratio": 0.923,
+        "flow_score": -4.31,
+        "direction": "outflow"
+      }
+    ],
+    "rotating_in": [
+      "Consumer Staples",
+      "Utilities",
+      "Health Care",
+      "Financials",
+      "Real Estate",
+      "Consumer Discretionary",
+      "Energy",
+      "Materials",
+      "Industrials",
+      "Communication Services"
+    ],
+    "rotating_out": [
+      "Technology"
+    ],
+    "as_of": "2026-11-17",
+    "window_short": 5,
+    "window_long": 20
+  }
+}
