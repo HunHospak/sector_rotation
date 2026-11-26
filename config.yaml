@@ -1,6 +1,7 @@
 service: sector_rotation
 schema_version: "1.0"
 ttl_hours: 30
+max_observation_age_days: 4  # Calendar days, allowing for a long market weekend.
 
 benchmark: SPY
 

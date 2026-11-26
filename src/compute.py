@@ -25,7 +25,7 @@ def analyze(returns: dict, sector_names: dict, benchmark: str, thr: float) -> di
         rel_s = r["ret_short"] - bench["ret_short"]
         rel_l = r["ret_long"] - bench["ret_long"]
         # Blend: recent relative strength weighted a bit more than the longer window.
-        flow = round(0.6 * rel_s + 0.4 * rel_l, 2)
+        flow = 0.6 * rel_s + 0.4 * rel_l
         direction = "inflow" if flow > thr else ("outflow" if flow < -thr else "neutral")
         rows.append({
             "sector": name,
@@ -35,7 +35,7 @@ def analyze(returns: dict, sector_names: dict, benchmark: str, thr: float) -> di
             "rel_short": round(rel_s, 2),
             "rel_long": round(rel_l, 2),
             "vol_ratio": r.get("vol_ratio"),
-            "flow_score": flow,
+            "flow_score": round(flow, 2),
             "direction": direction,
         })
 
