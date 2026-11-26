@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T03:45:42+00:00",
+  "generated_at": "2026-11-26T14:59:06+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -144,7 +144,7 @@
       "Energy",
       "Technology"
     ],
-    "as_of": "2026-11-26",
+    "as_of": "2026-11-25",
     "window_short": 5,
     "window_long": 20
   }
