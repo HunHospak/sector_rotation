@@ -1,7 +1,7 @@
 {
   "service": "sector_rotation",
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T14:59:06+00:00",
+  "generated_at": "2026-11-27T03:46:29+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
@@ -124,7 +124,7 @@
         "ret_long": -18.43,
         "rel_short": -3.05,
         "rel_long": -11.23,
-        "vol_ratio": 1.38,
+        "vol_ratio": 1.381,
         "flow_score": -6.32,
         "direction": "outflow"
       }
